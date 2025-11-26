@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este teste faz parte do processo de admissão para Vaga de Estágio de Engenheiro de Software na Ohrus.
+Este teste faz parte do processo de **admissão para Estágio de Engenheiro de Software na Ohrus**.
 
 ## Resumo
 
@@ -16,23 +16,24 @@ Todos os dados de clientes encontram-se em **`mocks/customers.ts`**.
 
 ### 1. Clientes Ativos
 
-- Listar **Nome**, **E-mail**, **Telefone**.
-- Estado desta página deve existir **apenas localmente**.
+* Listar **Nome**, **E-mail**, **Telefone**.
+* Ações: **Arquivar** (envia para Pinia) e **Eliminar**.
+* Estado desta página deve existir **apenas localmente**.
 
 ### 2. Clientes Arquivados
 
-- Listar clientes armazenados no **Pinia**.
-- Evitar duplicação de lógica.
+* Listar clientes armazenados no **Pinia**.
+* Evitar duplicação de lógica.
 
 ---
 
 ## Requisitos Técnicos
 
-- Vue 3 (Composition API, sem Options API).
-- Pinia apenas para clientes arquivados.
-- Vue Router com rota para **/clientes** e navegação visível.
-- TailwindCSS para estilização.
-- **Uso consistente de TypeScript**: tipagem explícita para clientes, stores, props e estados.
+* Vue 3 (Composition API, sem Options API).
+* Pinia apenas para clientes arquivados.
+* Vue Router com rota para **/clientes** e navegação visível.
+* TailwindCSS para estilização.
+* **Uso consistente de TypeScript**: tipagem explícita para clientes, stores, props e estados.
 
 ---
 
@@ -53,24 +54,28 @@ src/
 
 ## Tarefas
 
-1. Criar projeto com Vite + Vue 3.
+1. Criar o projeto com Vite + Vue 3.
 2. Configurar Router, Pinia e Tailwind.
-3. Implementar páginas de **Clientes Ativos** e **Arquivados**.
-4. Utilizar Pinia **exclusivamente** para arquivados.
-5. Criar navegação entre páginas.
-6. Garantir código limpo, organizado, componentizado e **tipado**.
+3. Criar uma branch com o seguinte padrão e trabalhar nela: `candidate/<SEU_NOME>` (ex.: `candidate/joao-silva`).
+
+   * A branch deve conter todo o desenvolvimento; não trabalhar diretamente em `main`/`master`.
+4. Implementar páginas de **Clientes Ativos** e **Arquivados**.
+5. Implementar as ações: Arquivar, Eliminar.
+6. Utilizar Pinia **exclusivamente** para arquivados.
+7. Criar navegação entre páginas.
+8. Garantir código limpo, organizado, componentizado e **tipado**.
 
 ---
 
 ## Critérios de Avaliação
 
-- Organização do código e componentização.
-- Domínio da Composition API.
-- Qualidade da store Pinia.
-- Uso correto do Router.
-- Interface limpa com Tailwind.
-- Funcionalidades coerentes.
-- **Aproveitamento sólido do TypeScript** para aumentar segurança e clareza.
+* Organização do código e componentização.
+* Domínio da Composition API.
+* Qualidade da store Pinia.
+* Uso correto do Router.
+* Interface limpa com Tailwind.
+* Funcionalidades coerentes.
+* **Aproveitamento sólido do TypeScript** para aumentar segurança e clareza.
 
 ---
 
