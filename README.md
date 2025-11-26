@@ -56,9 +56,6 @@ src/
 
 1. Criar o projeto com Vite + Vue 3.
 2. Configurar Router, Pinia e Tailwind.
-3. Criar uma branch com o seguinte padrão e trabalhar nela: `candidate/<SEU_NOME>` (ex.: `candidate/joao-silva`).
-
-   * A branch deve conter todo o desenvolvimento; não trabalhar diretamente em `main`/`master`.
 4. Implementar páginas de **Clientes Ativos** e **Arquivados**.
 5. Implementar as ações: Arquivar, Eliminar.
 6. Utilizar Pinia **exclusivamente** para arquivados.
@@ -78,5 +75,7 @@ src/
 * **Aproveitamento sólido do TypeScript** para aumentar segurança e clareza.
 
 ---
+
+Crie um repositório e faça o convite para: gabriel-corto para posterior revisão!
 
 By: Ageus Matheus (CEO at Ohrus)
